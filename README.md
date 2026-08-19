@@ -229,7 +229,7 @@ This workflow uses n8n **credentials** rather than plain environment variables. 
 ## 🔮 Future Improvements
  
 - 🌍 **Multi-language support** — auto-detect the customer's language and respond in kind, instead of English-only replies.
-- 🎯 **Intent classification layer** — add a dedicated intent-detection step before the Ai RAG BOT to route orders, complaints, and FAQs differently instead of relying on a single agent prompt.
+- 🎯 **Intent classification layer** — add a dedicated intent-detection step before the Ai RAG BOT to route orders, complaints, and FAQs differently instead of relying on single agent prompt.
 - 🖼️ **Rich media replies** — extend the `send message` node to support Instagram quick replies, buttons, and product carousels instead of plain text only.
 - 📊 **Analytics dashboard** — log every conversation (not just leads) to a database/Sheet and visualize response accuracy, response time, and drop-off points.
 - 🛒 **Order/booking integration** — connect the Ai RAG BOT to a live ordering system (e.g. POS API) so customers can place orders directly inside the chat instead of just getting info.
