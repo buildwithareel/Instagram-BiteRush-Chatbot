@@ -226,6 +226,22 @@ This workflow uses n8n **credentials** rather than plain environment variables. 
 
 ---
 
+## 🔮 Future Improvements
+ 
+- 🌍 **Multi-language support** — auto-detect the customer's language and respond in kind, instead of English-only replies.
+- 🎯 **Intent classification layer** — add a dedicated intent-detection step before the Ai RAG BOT to route orders, complaints, and FAQs differently instead of relying on a single agent prompt.
+- 🖼️ **Rich media replies** — extend the `send message` node to support Instagram quick replies, buttons, and product carousels instead of plain text only.
+- 📊 **Analytics dashboard** — log every conversation (not just leads) to a database/Sheet and visualize response accuracy, response time, and drop-off points.
+- 🛒 **Order/booking integration** — connect the Ai RAG BOT to a live ordering system (e.g. POS API) so customers can place orders directly inside the chat instead of just getting info.
+- 🧪 **Automated evaluation pipeline** — leverage n8n's Evaluations tab to continuously test the agent's answers against a golden dataset and catch regressions before they reach production.
+- 🔐 **Rate limiting & abuse protection** — add throttling per Instagram user ID to prevent spam/prompt-injection abuse of the AI Agent.
+- 🗂️ **Dynamic knowledge base sync** — auto-refresh the Pinecone index whenever the source menu/FAQ document changes, instead of manual re-embedding.
+- 🔄 **Fallback to human handoff** — detect low-confidence or escalation-worthy replies and route the conversation to a human agent (e.g. via Slack/Email alert).
+- 🧾 **CRM integration** — replace/extend the Google Sheets lead logging with a proper CRM (HubSpot, Airtable, etc.) for better lead management.
+
+---
+
+
 ## 📸 Screenshots & Demo
 
 > _Screenshots and a demo walkthrough will be added here._
