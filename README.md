@@ -140,7 +140,7 @@ Meta/Instagram Webhook
 | 7 | **Simple Memory** | `@n8n/n8n-nodes-langchain.memoryBufferWindow` | Maintains a rolling window of recent conversation turns so the agent has short-term context per user. |
 | 8 | **Pinecone Vector Store** | `@n8n/n8n-nodes-langchain.vectorStorePinecone` (retrieve-as-tool) | Exposed to the Ai RAG BOT as a callable tool. Performs semantic search over the Bite Rush knowledge base index (`bite-rush-rag`) to ground answers in real, factual data. |
 | 9 | **Embeddings Google Gemini** | `@n8n/n8n-nodes-langchain.embeddingsGoogleGemini` | Converts the query text into vector embeddings so Pinecone can perform similarity search. |
-| 10 | **Add data to google sheet** | `n8n-nodes-base.googleSheetsTool` | A second tool exposed to the Ai RAG BOT. When the customer shares their name/phone, the agent calls this tool to append a new row to the connected Google Sheet — used for lead capture. |
+| 10 | **Add data to google sheet** | `n8n-nodes-base.googleSheetsTool` | A second tool exposed to the AI RAG BOT. When the customer shares their name/phone, the agent calls this tool to append a new row to the connected Google Sheet — used for lead capture. |
 | 11 | **Edit required data** | `n8n-nodes-base.set` (manual mode) | Takes the Ai RAG BOT's raw output and reshapes it into the exact fields needed downstream: the reply text, the Instagram API version (pulled from the original webhook headers), and the sender/recipient IDs. |
 | 12 | **send message** | `n8n-nodes-base.httpRequest` | Sends the final `POST` request to the Instagram Graph API's `/messages` endpoint, delivering the AI's reply back into the customer's DM thread. |
 
