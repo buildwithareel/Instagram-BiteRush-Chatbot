@@ -2,7 +2,7 @@
 
 **An AI-powered Instagram DM automation agent for Bite Rush Fast Food — built on n8n.**
 
-The bot listens for incoming Instagram messages via the Meta Graph API, answers customer questions using a Retrieval-Augmented Generation (RAG) knowledge base, captures lead details into Google Sheets, and replies back to the customer in real time — all without a human in the loop.
+The bot listens for incoming Instagram messages via the Meta Graph API, answers customer questions using a Retrieval-Augmented Generation (RAG) knowledge base, captures lead details and store into Google Sheets, and replies back to the customer in real time — all without a human in the loop.
 
 <p align="left">
   <img alt="n8n" src="https://img.shields.io/badge/n8n-Workflow-EA4B71?logo=n8n&logoColor=white">
@@ -28,7 +28,7 @@ Every time a customer sends a DM, the workflow:
 4. Formats the AI's answer into the shape Meta expects.
 5. Sends the reply straight back to the customer's Instagram inbox.
 
-It was built for a fast-food brand ("Bite Rush"), but the architecture is generic enough to be reused for **any Instagram business page** that needs an AI assistant grounded in its own knowledge base.
+It was built for a Fast-food brand ("Bite Rush"), but the architecture is generic enough to be reused for **any Instagram business page** that needs an AI assistant grounded in its own knowledge base.
 
 ---
 
