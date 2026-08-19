@@ -113,7 +113,7 @@ Meta/Instagram Webhook
         │
    (POST: message)
         ▼
-      Switch ──▶ echo check (valid?) ──▶ Ai RAG BOT ──┬── Chat Model → OpenAI
+      Switch ──▶ echo check (valid?) ──▶ AI RAG BOT ──┬── Chat Model → OpenAI
                                              ├── Memory     → Simple Memory
                                              └── Tools      → Google Sheets (leads)
                                                             → Pinecone Vector Store → Gemini Embeddings
