@@ -201,7 +201,7 @@ This workflow uses n8n **credentials** rather than plain environment variables. 
 
 3. **Import the workflow**
    - In n8n, go to **Workflows → Import from File**.
-   - Select the `Instagram_BIteRush_Chatbot.json` file from this repo.
+   - Select the `Instagram_BIteRush_Chatbot.json` file from this repository.
 
 4. **Connect your credentials**
    - Open each credential-dependent node (OpenAI Chat Model, Embeddings Google Gemini, Pinecone Vector Store, Google Sheets, send message) and attach the corresponding credentials described above.
