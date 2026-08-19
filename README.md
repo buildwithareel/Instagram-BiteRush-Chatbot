@@ -32,7 +32,7 @@ It was built for a Fast-food brand ("Bite Rush"), but the architecture is generi
 
 ---
 
-## ✨ Features
+## ✨ Features Section
 
 - 🧠 **Retrieval-Augmented Generation (RAG)** — answers are grounded in a Pinecone vector store so the bot never invents menu items, prices, or policies.
 - 🔀 **Multi-model AI stack** — OpenAI for conversational reasoning, Google Gemini for embeddings, and Pinecone for semantic search.
