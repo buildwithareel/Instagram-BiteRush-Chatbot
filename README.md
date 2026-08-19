@@ -177,7 +177,7 @@ This workflow uses n8n **credentials** rather than plain environment variables. 
 |---|---|---|
 | `OpenAI API Key` | OpenAI Chat Model | Authenticates requests to OpenAI's chat completion models. |
 | `Google Gemini (PaLM) API Key` | Embeddings Google Gemini | Authenticates embedding generation requests. |
-| `Pinecone API Key` | Pinecone Vector Store | Grants access to your Pinecone project and index. |
+| `Pinecone API Key` | Pinecone Vector Store | Grants access to your pinecone project and index. |
 | `Pinecone Index Name` | Pinecone Vector Store | Name of the index holding your RAG knowledge base (e.g. `bite-rush-rag`). |
 | `Google Sheets OAuth2` | Add data to google sheet | Grants write access to the target spreadsheet for lead logging. |
 | `Google Sheet Document ID` | Add data to google sheet | The spreadsheet where leads are stored. |
