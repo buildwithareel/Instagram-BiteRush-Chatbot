@@ -242,11 +242,28 @@ This workflow uses n8n **credentials** rather than plain environment variables. 
 ---
 
 
-## 📸 Screenshots & Demo
+## 📸 Screenshots
 
-> _Screenshots and a demo walkthrough will be added here._
+### Worflow
+![workflow](Screenshots/workflow.png)
+
+### Lead capture in action
+
+Screenshot of the Google Sheet with a rows of captured leads (name/phone/Address/...)
+![Googlesheet log](Screenshots/Googlesheet.png)
+
+### Conversation chat
+
+A real Instagram DM thread showing a customer asking a question and the bot replying.
+![conversation chat](<Screenshots/Conversion chat.png>)
 
 ---
+
+## Live conversation demo
+
+A real Instagram DM demo showing a customer asking a question and the bot replying 
+![Demo](<Demo/Live conversation demo.gif>)
+
 
 ## 📄 License
 
